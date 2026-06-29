@@ -15,7 +15,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 try:
     # Navigate to your URL
-    driver.get("https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner-clf-c02/view/")
+    driver.get("https://examtopics_url")
 
     print("Chrome opened. Waiting 1 minute for manual changes...")
     time.sleep(60)  # Wait 1 minute
